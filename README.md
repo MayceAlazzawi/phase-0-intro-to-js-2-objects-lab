@@ -40,7 +40,7 @@ following four functions:
   same as `updateEmployeeWithKeyAndValue()` but it _should_ mutate the
   `employee` `Object` passed in.
 - `deleteFromEmployeeByKey()`: this function should take in a `employee`
-  `Object` and a `key`. It should delete the property with that `key` from the
+`Object` and a `key`. It should delete the property with that `key` from the
   `employee` `Object`. This should not mutate the original `employee` `Object`;
   it should return a _new_ `Object` that doesn't include the identified
   key-value pair. **Hint**: use the spread operator!
